@@ -28,18 +28,21 @@ export default [
         format: "cjs",
         sourcemap: false,
         banner: banner,
+        name: "SignInWithEsignetButton",
       },
       {
         file: packageJson.module,
         format: "esm",
         sourcemap: false,
         banner: banner,
+        name: "SignInWithEsignetButton",
       },
       {
         file: packageJson.bundle,
         format: "iife",
         sourcemap: false,
         banner: banner,
+        name: "SignInWithEsignetButton",
       },
     ],
     plugins: [
